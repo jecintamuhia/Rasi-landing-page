@@ -19,15 +19,32 @@ header {
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color: #82BF79;
     margin:auto 0;
     padding: 10px;
     
 }
- .navbar{
+.homeheading{
+   padding-top: 100px;
+   font-size: x-large;
+   
+}
+.logo {
+    display: flex;
+    justify-content: space-around;
+
+}
+.homelogo h1{
+    padding-right: 900px;
+}
+.homeheading p{
+    color:#ffffff
+}
+ .navbar p{
     text-align: center;
+    color: #ffffff;
 
 }
 
@@ -35,6 +52,8 @@ nav {
     list-style: none;
     display: flex;
     align-items: center;
+    padding-left: 800px;
+    padding-top: -30px;
 }
 
 .nav-links li {
@@ -71,10 +90,12 @@ nav {
     border-radius: 20%;
 }
 .logo{
-    align-content: start;
+display: inline;
+
 }
-p,h1{
+ .hero h1, p{
     color:#ffffff;
+    
 }
 .hero2{
     border-top:  2px solid black;
@@ -90,10 +111,7 @@ p,h1{
     
 }
 
-.navbar {
-    text-align: center;
-    justify-content: center;
-}
+
 
 @media screen and (orientation: portrait) {
     .column {
@@ -299,10 +317,14 @@ p,h1{
     padding: 10px;
     justify-content: space-around;
     width: 200%;
+    border-radius: 10px;
 }
 .ShowcaseImg #floraldress{
     width: 12cm;
     height: 15cm;
+    border-radius: 10px;
+    box-shadow:#b6cacf 2px 2px;
+    
     
     
 
@@ -310,10 +332,14 @@ p,h1{
 .ShowcaseImg #dresses{
     width:12cm ;
     height:15cm;
+    border-radius: 10px;
+    box-shadow:#b6cacf 2px 2px;
 }
 .ShowcaseImg #bed{
     width:12cm;
     height:15cm;
+    border-radius: 10px;
+    box-shadow: #b6cacf 2px 2px;
 }
 /* .ShowcaseImg #clothing{
   align-self: center;
@@ -323,14 +349,17 @@ p,h1{
  #clothing{
  align-items: center;
  padding-left: 250px;
- max-width: 200%;
+ max-width: 150%;
  padding-top: 20px;
+ border-radius: 10px;
+ box-shadow: #b6cacf 5px 5px;
  }
 .map{
     
     height: 15cm;
     margin-top: 2cm;
     position: absolute;
+    
    
 }
 .reachout{
@@ -356,8 +385,14 @@ p,h1{
     justify-content: space-around;
     background-color:rgb(37, 37, 37);
     color: white;
-    padding:60px;
-    text-align: justify;
+    
+    
+    border-radius: 20px;
+    margin-top: 300px;
+    
+    
+
+    
     
 }
 footer{
@@ -366,17 +401,19 @@ footer{
 .Legal ul{
 list-style-type: none;
 
+
 }
 #footer p{
     color:#ffffff;
+    
 }
-.Legal p{
+.Legalpage p{
 text-align: center;
 }
-.Accounts ul{
+.Accountspage ul{
 list-style-type: none;
 }
-.Accounts p{
+.Accountspage p{
 text-align: center;
 }
 #copyright{
@@ -387,12 +424,12 @@ padding: 20px;
 @media only screen and (max-width: 600px) {
     
 body {
-    font-family: Arial, sans-serif;
+   
     margin: 80px;
     padding: 100px;
     column-gap: 12px;
     padding-top: 0px;
-    font-family: Poppin;
+    font-family: Popping;
     
 }
 
@@ -491,12 +528,12 @@ p,h1{
   }
   
 
-/* .column {
+.column {
     float: left;
     width: 33.33%;
     padding: 5px;
     max-width: 100%;
-  } */
+  }
 .row::after {
     content: "";
     clear: both;
@@ -513,11 +550,12 @@ p,h1{
 .column img{
     margin-left: -3%;
     padding: 120px;
-    border-radius: 10px;
+    border-radius: 20px;
     width:200%;
     box-shadow: 10px 10px 10px;
     max-height:  200vh;
     max-width: 100%;
+
 
     
 }
@@ -534,6 +572,7 @@ p,h1{
   max-width: 500%;
   border: 2px ;
   max-height: 200vh; 
+  border-radius: 10px;
  
 
 
@@ -574,7 +613,7 @@ p,h1{
     max-width: 200%;
     padding: 100px;
     padding-top: 20px;
-    border-radius: 10px;
+    border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content:space-between ;
@@ -596,6 +635,7 @@ p,h1{
     width: 33.33%;
     padding: 40px;
     display: flex;
+    border-radius: 10px;
   }
   
  .text{
@@ -608,6 +648,7 @@ p,h1{
  .Qualityimg{
     display: table;
     margin-right: 20%;
+    border-radius: 10px;
  }
  .printing{
     display: flex;
@@ -626,9 +667,10 @@ p,h1{
     justify-content: space-between;
     padding:20px;
     max-width: 200%;
-    align-items: flex-start;
-
+    border-radius: 20px;
     
+
+ 
   }
   .logos{
     margin-top: 1cm;
@@ -673,6 +715,7 @@ p,h1{
 .images{
     display: flex;
     justify-content: space-around;
+    border-radius: 10px;
     
 }
 .womanwithblanket img{
@@ -686,10 +729,12 @@ p,h1{
     padding: 10px;
     justify-content: space-around;
     width: 200%;
+    border-radius: 10px;
 }
 .ShowcaseImg #floraldress{
     width: 12cm;
     height: 15cm;
+    border-radius: 10px;
     
     
 
@@ -718,6 +763,7 @@ p,h1{
     height: 15cm;
     margin-top: 2cm;
     position: absolute;
+    border-radius: 10px;
    
 }
 .reachout{
@@ -745,10 +791,12 @@ p,h1{
     color: white;
     padding:60px;
     text-align: justify;
+    border-radius: 10px;
     
 }
 footer{
     padding-top: 20px;
+    border-radius: 10px;
 }
 .Legal ul{
 list-style-type: none;
