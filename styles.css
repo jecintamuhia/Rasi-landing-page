@@ -1,0 +1,394 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 80px;
+    padding: 100px;
+    column-gap: 12px;
+    padding-top: 0px;
+    font-family: Poppin;
+    
+}
+
+header {
+    
+    color:#ffffff;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #82BF79;
+    margin:auto 0;
+    padding: 10px;
+    
+}
+ .navbar{
+    text-align: center;
+
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    margin: 0 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links a {
+    color:#ffffff;
+    text-decoration: none;
+    text-align: justify;
+}
+
+.hero {
+   
+    margin:0;
+    padding:20px;
+
+    
+    max-width:  100%;
+    height:70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://images.unsplash.com/photo-1531592762598-58a792d73aed?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D');
+}
+
+.cta-button {
+    background:#b6cacf;
+    color: #282c34;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    border-radius: 20%;
+}
+.logo{
+    align-content: start;
+}
+p,h1{
+    color:#ffffff;
+}
+.hero2{
+    border-top:  2px solid black;
+   font-family: poppins;
+     display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: xx-large;
+    border-bottom:  solid ;
+    position:relative;
+
+   
+    
+}
+
+.navbar {
+    text-align: center;
+    justify-content: center;
+}
+
+@media screen and (orientation: portrait) {
+    .column {
+      width:60%;
+      height:auto;
+      padding: 20px;
+    }
+  }
+  
+
+/* .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    max-width: 100%;
+  } */
+.row::after {
+    content: "";
+    clear: both;
+    display: flex;
+    gap: 40%;
+    
+  } 
+   .row{
+    display: flex;
+    max-width: fit-content;
+    padding-top: 100px;
+
+}
+.column img{
+    margin-left: -3%;
+    padding: 120px;
+    border-radius: 10px;
+    width:200%;
+    box-shadow: 10px 10px 10px;
+    max-height:  200vh;
+    max-width: 100%;
+
+    
+}
+.RasiScreen{
+   margin: auto;
+  display:table ;
+  justify-content: block;
+  text-align: center;
+  
+  margin-left: 20%;
+  text-align: start;
+  text-indent:4px ;
+  padding: 100px;
+  max-width: 500%;
+  border: 2px ;
+  max-height: 200vh; 
+  /* padding: 10px;
+  margin-left:20%;
+  margin-right: 100%;
+  max-width :200%;
+  
+  padding-left: 200px; */
+  
+  
+  /* max-height: 200vh; */
+
+
+  
+
+  
+}
+
+ .RasiScreen p {
+    color: black;
+    font-size: x-large;
+    word-wrap: break-word;
+    float: right;
+
+ }
+ .RasiScreen h1{
+    color:black;
+    font-size: xx-large;
+ }
+ .RasiScreen h2{
+    color:#82BF79;
+    font-size: medium;
+    word-spacing: 3px;
+    font-family: poppins;
+ }
+ .RasiScreen a{
+    background-color:#82BF79 ;
+    border-radius: 10px;
+ }
+ .RasiScreen button{
+    border-radius: 10px;
+    padding: 10px 20px;
+ }
+ .row2{
+    background-color:rgb(178, 212, 178);
+    border: 1px solid;
+    margin-top: 10%;
+    max-width: 200%;
+    padding: 100px;
+    padding-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    margin-left:-3% ;
+
+   
+
+ }
+ .row2 h1, p{
+    color:black;
+    text-align: center;
+    display:flexbox;
+    
+ }
+ 
+ 
+ .image{
+    float: left;
+    width: 33.33%;
+    padding: 40px;
+    display: flex;
+  }
+  
+ .text{
+
+    margin-left: -3%;
+    max-width: 200%;
+    text-indent: 3px;
+
+ }
+ .Qualityimg{
+    display: table;
+    margin-right: 20%;
+ }
+ .printing{
+    display: flex;
+    padding: 10%;
+    font-size: x-large;
+    flex-wrap: nowrap;
+ }
+  .images::after {
+    content: "";
+    clear: both;
+    display: table;
+  }  
+
+  .image-icons{
+    display:flex;
+    justify-content: space-between;
+    padding:20px;
+    max-width: 200%;
+    align-items: flex-start;
+
+    
+  }
+  .logos{
+    margin-top: 1cm;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+#first-logo{
+    height: 5cm;
+    
+}
+#second-logo{
+    height: 2cm;
+    width: 4cm;
+    margin-top: 1.3cm;
+}
+#third-logo{
+    height: 2cm;
+    width: 6cm;
+    margin-top: 1.5cm;
+}
+#fourth-logo{
+    height: 3cm;
+    width: 3cm;
+    margin-top: 1cm;
+}
+#fifth-logo{
+    height: 2.5cm;
+    width: 4cm;
+    margin-top: 1.5cm;
+}
+#sixth-logo{
+    height: 5cm;
+    width: 3cm;
+}
+.Showcase{
+    text-align: center;
+   
+}
+.images{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.womanwithblanket img{
+    width: 80%;
+    height: 20cm;
+    
+    
+}
+.ShowcaseImg img{
+
+    padding: 10px;
+    justify-content: space-around;
+    width: 200%;
+}
+.ShowcaseImg #floraldress{
+    width: 12cm;
+    height: 15cm;
+    
+    
+
+}
+.ShowcaseImg #dresses{
+    width:12cm ;
+    height:15cm;
+}
+.ShowcaseImg #bed{
+    width:12cm;
+    height:15cm;
+}
+/* .ShowcaseImg #clothing{
+  align-self: center;
+  display: flex;
+ 
+} */
+ #clothing{
+ align-items: center;
+ padding-left: 250px;
+ max-width: 200%;
+ padding-top: 20px;
+ }
+.map{
+    
+    height: 15cm;
+    margin-top: 2cm;
+    position: absolute;
+   
+}
+.reachout{
+    text-align: center;
+}
+.reachout h1{
+ color:#0f0c0c
+}
+.contact-info{
+    background-color: white;
+    width: 25%;
+    margin: 40px;
+    padding:20px ;
+    border-radius: 20px;
+    box-shadow: 10px 4px 30px;
+    position: relative;
+    
+    
+
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(37, 37, 37);
+    color: white;
+    padding:60px;
+    text-align: justify;
+    
+}
+footer{
+    padding-top: 20px;
+}
+.Legal ul{
+list-style-type: none;
+
+}
+#footer p{
+    color:#ffffff;
+}
+.Legal p{
+text-align: center;
+}
+.Accounts ul{
+list-style-type: none;
+}
+.Accounts p{
+text-align: center;
+}
+#copyright{
+background-color: #0f0c0c;
+color: white;
+padding: 20px;
+}
