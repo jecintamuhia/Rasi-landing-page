@@ -55,7 +55,7 @@ h1, p, h2{
     list-style: none;
     display: flex;
     align-items: center;
-    padding-left: 800px;
+    padding-left: 500px;
     padding-top: -30px;
 }
 
@@ -125,12 +125,12 @@ display: inline;
   }
   
 
-/* .column {
+.column {
     float: left;
     width: 33.33%;
     padding: 5px;
     max-width: 100%;
-  } */
+  }
 .row::after {
     content: "";
     clear: both;
@@ -321,6 +321,7 @@ display: inline;
 }
 .Showcase{
     text-align: center;
+    display: flex;
    
 }
 .images{
@@ -328,18 +329,18 @@ display: inline;
     justify-content: space-around;
     
 }
-.womanwithblanket img{
-    width: 80%;
-    height: 20cm;
-    
+
+.ShowcaseImg {
+            
+    padding: 20px;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
     
 }
 .ShowcaseImg img{
-
-    padding: 10px;
     justify-content: space-around;
-    width: 200%;
-    border-radius: 10px;
 }
 .ShowcaseImg #floraldress{
     width: 12cm;
@@ -356,6 +357,7 @@ display: inline;
     height:15cm;
     border-radius: 10px;
     box-shadow:#b6cacf 2px 2px;
+   
 }
 .ShowcaseImg #bed{
     width:12cm;
